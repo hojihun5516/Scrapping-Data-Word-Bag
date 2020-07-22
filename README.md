@@ -19,7 +19,7 @@
 
 
 
-## 3.  사용된 라이브러리
+## 3. 사용된 라이브러리
 
 ---
 
@@ -37,9 +37,49 @@
 - sys
 ```
 
+## 4. 시각화 
+
+---
+### PiePlot
+![pieplot](img/pieplot.png)
 
 
-## 4. 작업 도중 발생한 이슈들
+### Tree Map
+![tree_map](img/tree_map.png)
+
+
+### Stacked Barplot
+![stacked_barplot](img/stacked_barplot.png)
+
+
+### Percent Stacked Barplot
+![percent_stacked_barplot](img/percent_stacked_barplot.png)
+
+
+
+
+
+
+
+## 5. 산출물
+
+---
+### - :green_book:Naver Blog    <허지훈> 
+- 1.* 파일 { 가평군, 고양시,광명시, 광주시, 구리시, 군포시, 김포시 }
+- 2.* 파일 { 남양주시, 동두천시, 부천시, 성남시, 과천시 }
+- 3.* 파일 { 안양시, 양주시, 양평군, 여주시 }
+- 4.* 파일 { 연천군, 오산시, 용이니, 의왕시 }
+- 5.* 파일 { 의정부시, 이천시, 파주시, 평택시 }
+- 6.* 파일 { 포천시, 하남시, 화성시 }
+- 7.* 파일 { 수원시, 시흥시, 안산시, 안성시 }
+
+### - :camera:Instagram      <이채은> 
+
+
+### - :newspaper:Naver News   <배지연>
+
+
+## 6. 작업 도중 발생한 이슈들
 
 ---
 >:green_book:Naver Blog    <허지훈> 
@@ -58,52 +98,6 @@
 
 >>5. 파일 용량이 커서 1개의 csv로 merge를 하지 못했음 (메모리초과)
 >>>=> 해결: 해결하지 못하여서 7개의 파일로 분할하여 작업함
-
-## 5. 시각화 
-
----
-### PiePlot
-
-![pieplot](img/pieplot.png)
-
----
-### Tree Map
-
-![tree_map](img/tree_map.png)
-
----
-### Stacked Barplot
-
-![stacked_barplot](img/stacked_barplot.png)
-
----
-### Percent Stacked Barplot
-
-![percent_stacked_barplot](img/percent_stacked_barplot.png)
-
-
-
-
-
-
-
-## 산출물
-
----
-### - :green_book:Naver Blog    <허지훈> 
-- 1.* 파일 { 가평군, 고양시,광명시, 광주시, 구리시, 군포시, 김포시 }
-- 2.* 파일 { 남양주시, 동두천시, 부천시, 성남시, 과천시 }
-- 3.* 파일 { 안양시, 양주시, 양평군, 여주시 }
-- 4.* 파일 { 연천군, 오산시, 용이니, 의왕시 }
-- 5.* 파일 { 의정부시, 이천시, 파주시, 평택시 }
-- 6.* 파일 { 포천시, 하남시, 화성시 }
-- 7.* 파일 { 수원시, 시흥시, 안산시, 안성시 }
-
-### - :camera:Instagram      <이채은> 
-
-
-### - :newspaper:Naver News   <배지연>
-
 
 
 
