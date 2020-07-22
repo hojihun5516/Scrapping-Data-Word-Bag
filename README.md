@@ -43,7 +43,7 @@
 
 ---
 
-```makefile
+```
 > 허지훈
 >	> 1. 블로그 내용 수집중 HTML내부가 Iframe으로 되어있어서 태그를 찾지 못했음
 >	>	> => 해결: Iframe에있는 src 경로로 다시 접근하여 scrapping 하였음   
