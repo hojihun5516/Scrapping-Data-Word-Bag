@@ -44,25 +44,22 @@
 ---
 
 ```
-> 허지훈
->	> 1. 블로그 내용 수집중 HTML내부가 Iframe으로 되어있어서 태그를 찾지 못했음
->	>	> => 해결: Iframe에있는 src 경로로 다시 접근하여 scrapping 하였음   
-***
->	> 2. 네이버 블로그는 많은 Frame이 있기 때문에 모든 블로그를 수집하지 못했음
->	>	> => 해결: 1개의 틀만 정하고 잡아놓은 URL만 수집하였음 
-***
+>:green_book:Naver Blog    <허지훈> 
+>>1. 블로그 내용 수집중 HTML내부가 Iframe으로 되어있어서 태그를 찾지 못했음
+>>>=> 해결: Iframe에있는 src 경로로 다시 접근하여 scrapping 하였음   
 
->	> 3. 블로그 특성상 많은 양의 텍스트가 존재하여 서버가 자주 down됨
->	>	> => 해결: Colab을 이용하여 도시를 나눠 분할작업 후 Pickle을 사용하여 데이터 저장함  
->	>	> => Colab은 Ubuntu운영체제로 화면이 없기 때문에 브라우저를 띄우지않고 headless상태로 브라우저에 접속해야함 -> Selenium에 headless옵션 사용
-***
+>>2. 네이버 블로그는 많은 Frame이 있기 때문에 모든 블로그를 수집하지 못했음
+>>>=> 해결: 1개의 틀만 정하고 잡아놓은 URL만 수집하였음 
 
->	> 4. 파일 용량이 커서 csv로 Parsing하여 저장할 때 Error발생함
->	>	> => 해결: import csv      import sys          csv.field_size_limit(sys.maxsize) csv에 허용가능한 필드의 사이즈를 최대로 늘림
-***
+>>3. 블로그 특성상 많은 양의 텍스트가 존재하여 서버가 자주 down됨
+>>>=> 해결: Colab을 이용하여 도시를 나눠 분할작업 후 Pickle을 사용하여 데이터 저장함  
+>>>=> Colab은 Ubuntu운영체제로 화면이 없기 때문에 브라우저를 띄우지않고 headless상태로 브라우저에 접속해야함 -> Selenium에 headless옵션 사용
 
->	> 5. 파일 용량이 커서 1개의 csv로 merge를 하지 못했음 (메모리초과)
->	>	> => 해결: 해결하지 못하여서 7개의 파일로 분할하여 작업함
+>>4. 파일 용량이 커서 csv로 Parsing하여 저장할 때 Error발생함
+>>>=> 해결: import csv      import sys          csv.field_size_limit(sys.maxsize) csv에 허용가능한 필드의 사이즈를 최대로 늘림
+
+>>5. 파일 용량이 커서 1개의 csv로 merge를 하지 못했음 (메모리초과)
+>>>=> 해결: 해결하지 못하여서 7개의 파일로 분할하여 작업함
 ```
 
 ## 5. 시각화 
