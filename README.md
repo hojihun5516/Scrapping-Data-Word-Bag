@@ -70,22 +70,22 @@
 ---
 ### PiePlot
 
-![pieplot]('./img/pieplot.png')
+![pieplot](img/pieplot.png)
 
 ---
 ### Tree Map
 
-![tree_map]('./img/tree_map.png')
+![tree_map](img/tree_map.png)
 
 ---
 ### Stacked Barplot
 
-![stacked_barplot]('./img/stacked_barplot.png')
+![stacked_barplot](img/stacked_barplot.png)
 
 ---
 ### Percent Stacked Barplot
 
-![percent_stacked_barplot]('./img/percent_stacked_barplot.png')
+![percent_stacked_barplot](img/percent_stacked_barplot.png)
 
 
 
