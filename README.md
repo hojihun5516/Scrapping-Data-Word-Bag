@@ -54,7 +54,7 @@
 
 ### Word Cloud
 
-![tree_map](img/word_cloud.png)
+![word_cloud](img/word_cloud.PNG)
 
 ## 5. 산출물
 
